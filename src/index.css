@@ -4,14 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light dark;
+  --font-headline: Space Grotesk;
+  --font-body: Inter;
+  --font-label: Inter;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-}
-
-:root {
-  color-scheme: light dark;
+  font-family: var(--font-body);
 }
 
 .dark {
